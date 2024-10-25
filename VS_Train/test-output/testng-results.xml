@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-23T17:23:13 IST" name="Default suite" finished-at="2024-10-23T17:23:36 IST" duration-ms="22852">
+    <groups>
+    </groups>
+    <test started-at="2024-10-23T17:23:13 IST" name="Default test" finished-at="2024-10-23T17:23:36 IST" duration-ms="22852">
+      <class name="Train_Script.Test_Script">
+        <test-method signature="train(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Train_Script.Test_Script@5fa47fea]" started-at="2024-10-23T17:23:14 IST" name="train" data-provider="VSTrain" finished-at="2024-10-23T17:23:36 IST" duration-ms="21431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@contoso.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Contoso@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_Train_01]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test_Train_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- train -->
+        <test-method signature="train(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Train_Script.Test_Script@5fa47fea]" started-at="2024-10-23T17:23:14 IST" name="train" data-provider="VSTrain" finished-at="2024-10-23T17:23:35 IST" duration-ms="21368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@contoso.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Contoso@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_Train_02]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test_Train_02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- train -->
+      </class> <!-- Train_Script.Test_Script -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
